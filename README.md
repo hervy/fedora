@@ -84,14 +84,14 @@ $ fi gimp
 ## Centos install, ex install gimp >>
 $ ci gimp 
 ## ===============================================================
-## Fedora remove, ex install gimp >>
+## Fedora remove, ex remove gimp >>
 $ fr gimp
-## Centos remove, ex install gimp >>
+## Centos remove, ex remove gimp >>
 $ cr gimp
 ## ===============================================================
-## Fedora search, ex install gimp >>
+## Fedora search, ex search gimp >>
 $ fs gimp
-## Centos search, ex install gimp >>
+## Centos search, ex search gimp >>
 $ cs gimp
 ## ===============================================================
 ## Fedora clean
