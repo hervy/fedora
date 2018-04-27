@@ -50,16 +50,25 @@ $ install-basic-fedora2
 $ install-basic-centos2
 ## ===================================================
 # Step 5 >>
+## Install codec for fedora
+$ install-codec-fedora
+## Install codec for centos
+$ install-codec-centos
+## ===================================================
+# Step 6 (optional)>>
 ## Install i3-wm for fedora
 $ install-i3-fedora
 ## Install i3-wm for centos
 $ install-i3-centos
 ## ===================================================
-# Step 6 >>
-## Install codec for fedora
-$ install-codec-fedora
-## Install codec for centos
-$ install-codec-centos
+# Step 7 (Optional)>>
+## Install web server basic for fedora
+$ install-webserver-fedora
+## Install web server basic for centos
+$ install-webserver-centos
+## ===================================================
+
+# Etc.>>
 ## ===================================================
 ## Fedora install, ex install gimp >>
 $ fi gimp
@@ -81,11 +90,6 @@ $ fc
 ## Centos clean
 $ cc
 ## ===================================================
-## Install web server basic for fedora
-$ install-webserver-fedora
-## Install web server basic for centos
-$ install-webserver-centos
-## ===================================================
 ## open config .basrc at ~ (more info alias)
 $ vimbr
 ## ===================================================
@@ -98,3 +102,5 @@ $ vimi3
 ## open config i3status at ~/.i3/
 $ vimi3st
 ## ===================================================
+## Console tty to GUI
+$ gui
