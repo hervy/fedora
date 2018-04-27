@@ -1,5 +1,7 @@
 ## Only for fedora
 
+# ![](ss.png)
+
 # Details
 
 | Item | Value |
@@ -19,8 +21,6 @@
 | Network Applet | nmtui |
 | Bluetooth Applet | blueberry |
 | Text Editor | vim, nvim + tmux |
-
-![](ss.png)
 
 ## Fedora update:
 $ fu
