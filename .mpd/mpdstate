@@ -1,0 +1,234 @@
+sw_volume: 69
+audio_device_state:1:pulse audio
+audio_device_state:0:my_fifo
+state: play
+current: 182
+time: 3.993000
+random: 0
+repeat: 1
+single: 1
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:West/Counting Stars.mp3
+1:West/Dear god.mp3
+2:West/Dive.mp3
+3:West/Perfect.mp3
+4:West/24K Magic.mp3
+5:West/That's What I Like.mp3
+6:West/Too Good To Say Goodbye.ogg
+7:West/Versace On The Floor.mp3
+8:West/2U (feat. Justin Bieber).mp3
+9:West/Hymn For The Weekend.mp3
+10:West/Fix You.mp3
+11:West/Adventure Of A Lifetime.mp3
+12:West/After The Afterparty (feat. Lil Yachty).mp3
+13:West/Ain't My Fault.mp3
+14:West/All Good.mp3
+15:West/All We Know.mp3
+16:West/Alone.mp3
+17:West/Young Dumb & Broke.ogg
+18:West/Attention.mp3
+19:West/Attention (Acoustic).mp3
+20:West/Mercy.mp3
+21:West/Bad and Boujee (feat. Lil Uzi Vert).mp3
+22:West/Battle Symphony.mp3
+23:West/Relationship (feat. Future).ogg
+24:West/Tank (Original Mix).mp3
+25:West/Runaway (U & I).mp3
+26:West/Smile.mp3
+27:West/Hero (feat. Christina Perri).mp3
+28:West/How To Love (feat. Sofia Reyes).mp3
+29:West/Ride.mp3
+30:West/Bodak Yellow (feat. Kodak Black).ogg
+31:West/Butterfly Effect.ogg
+32:West/CAN'T STOP THE FEELING! (Original Song From DreamWorks Anima.mp3
+33:West/Cancer.mp3
+34:West/Castle on the Hill.mp3
+35:West/I Still Love You.mp3
+36:West/Ciao Adios.mp3
+37:West/Closer.mp3
+38:West/Cold Water (feat. Justin Bieber & MØ).mp3
+39:West/All the Pretty Girls.ogg
+40:West/Crying in the Club.mp3
+41:West/Love Galore.ogg
+42:West/The Weekend.ogg
+43:West/Small Town Boy.ogg
+44:West/Sit Still, Look Pretty.mp3
+45:West/Don't Leave.mp3
+46:West/Don't Let Me Down.mp3
+47:West/Down.mp3
+48:West/Genesis.mp3
+49:West/New Rules.ogg
+50:West/Everglow.mp3
+51:West/Faded.mp3
+52:West/Don't Get Much Better.mp3
+53:West/Gang Up.mp3
+54:West/Hey Ma (feat. Camila Cabello) [Spanish Version].mp3
+55:West/Hey Ma (feat. Camila Cabello).mp3
+56:West/Feels.mp3
+57:West/First Time.mp3
+58:West/Peanut Butter Jelly.mp3
+59:West/Fresh Eyes (Grey Remix).mp3
+60:West/See You Again (feat. Charlie Puth).mp3
+61:West/Mask Off.mp3
+62:West/Friend (Hard Times).mp3
+63:West/Revolution.mp3
+64:West/Help.mp3
+65:West/GDFR (feat. Sage The Gemini and Lookas).mp3
+66:West/Glorious (feat. Skylar Grey).ogg
+67:West/Hair.mp3
+68:West/Secret Love Song.mp3
+69:West/A Sky Full of Stars.mp3
+70:West/Touch.mp3
+71:West/Good Life.mp3
+72:West/Wild Thoughts.ogg
+73:West/No Such Thing as a Broken Heart.ogg
+74:West/Hard Times.mp3
+75:West/Sweet Creature.mp3
+76:West/Two Ghosts.mp3
+77:West/Havana.ogg
+78:West/Heavy (feat. Kiiara).mp3
+79:West/I Could Use a Love Song.ogg
+80:West/Hi Bich.ogg
+81:West/How Long.ogg
+82:West/How Would You Feel (Paean).mp3
+83:West/Hunter.mp3
+84:West/Hunter (Galantis & Misha K VIP Remix).mp3
+85:West/Hunter (NGHTMRE & Rickyxsan Remix).mp3
+86:West/Hypnotised.mp3
+87:West/i could change ur life.mp3
+88:West/I'll Name the Dogs.ogg
+89:West/I'm the One.mp3
+90:West/All I Ask (Adele Cover).mp3
+91:West/In My Head (Matisse & Sadko Remix).mp3
+92:West/In The Name Of Love.mp3
+93:West/iSpy (feat. Lil Yachty).mp3
+94:West/Bank Account.ogg
+95:West/Unforgettable.ogg
+96:West/Just Hold On.mp3
+97:West/What Ifs.ogg
+98:West/Light My Body Up (feat. Nicki Minaj & Lil Wayne).mp3
+99:West/Gucci Gang.ogg
+100:West/Losing Sleep.ogg
+101:West/Lost In Your Light (feat. Miguel).mp3
+102:West/Love On Me.mp3
+103:West/Love On Me (Alex Metric Remix).mp3
+104:West/Love So Soft.ogg
+105:West/DNA.ogg
+106:West/Lush Life.mp3
+107:West/Sauce It Up.ogg
+108:West/The Way Life Goes.ogg
+109:West/History.mp3
+110:West/Malibu.mp3
+111:West/Matches.mp3
+112:West/The One.mp3
+113:West/Sugar.mp3
+114:West/Never Forget You.mp3
+115:West/Nights With You.mp3
+116:West/One Call Away.mp3
+117:West/We Don't Talk Anymore (feat. Selena Gomez).mp3
+118:West/Marvin Gaye (feat. Meghan Trainor).mp3
+119:West/No Money.mp3
+120:West/No More Sad Songs.mp3
+121:West/No One Can Stop Us.mp3
+122:West/No Promises (feat. Demi Lovato).mp3
+123:West/On My Mind.mp3
+124:West/Good Goodbye (feat. Pusha T and Stormzy).mp3
+125:West/Palette (Feat. G-DRAGON).mp3
+126:West/Paradise.mp3
+127:West/Paris.mp3
+128:West/Light It Up (feat. Nyla & Fuse ODG) [Remix].mp3
+129:West/Call If You Need Me.mp3
+130:West/Dancin' To The Sound Of A Broken Heart.mp3
+131:West/Don't Care.mp3
+132:West/Firebird.mp3
+133:West/Forever Tonight.mp3
+134:West/In My Head.mp3
+135:West/Kill 'Em With The Love.mp3
+136:West/Louder, Harder, Better.mp3
+137:West/Water.mp3
+138:West/You.mp3
+139:West/Pillow Fight.mp3
+140:West/Pillow Fight (Galantis & CID VIP Mix).mp3
+141:West/Pills & Automobiles.ogg
+142:West/Plain Jane.ogg
+143:West/Pretty Girl.mp3
+144:West/Privacy.mp3
+145:West/Roll In Peace (feat. XXXTENTACION).ogg
+146:West/Transportin'.ogg
+147:West/Questions.ogg
+148:West/Rake It Up.ogg
+149:West/Rich Boy (Quintino Remix).mp3
+150:West/Rich Boy.mp3
+151:West/Ritual (feat. Wrabel).mp3
+152:West/Rockabye (feat. Sean Paul & Anne-Marie).mp3
+153:West/Run Up (feat. PARTYNEXTDOOR & Nicki Minaj).mp3
+154:West/Save Me From Myself.mp3
+155:West/Say You Won't Let Go.mp3
+156:West/Scared to Be Lonely.mp3
+157:West/Shape of You.mp3
+158:West/Shed a Light.mp3
+159:West/Sign of the Times.mp3
+160:West/Silence.ogg
+161:West/Sing Me to Sleep.mp3
+162:West/Sky Walker.ogg
+163:West/Slide.mp3
+164:West/Somebody to Love (Extended Mix).mp3
+165:West/Something Just Like This.mp3
+166:West/Warmness On The Soul.mp3
+167:West/Stargazing.ogg
+168:West/Stay.mp3
+169:West/Stay With You.mp3
+170:West/Still Got Time.mp3
+171:West/Stressed Out.mp3
+172:West/Heathens.mp3
+173:West/Purple Lamborghini.mp3
+174:West/The Scientist.mp3
+175:West/Swalla (feat. Nicki Minaj & Ty Dolla $ign).mp3
+176:West/Symphony (feat. Zara Larsson).mp3
+177:West/Tears (feat. Louisa Johnson).mp3
+178:West/Just a Friend to You.mp3
+179:West/Sparks.mp3
+180:West/God Put A Smile Upon Your Face.mp3
+181:West/Fix a Drink.ogg
+182:West/You're Gonna Live Forever in Me.mp3
+183:West/There for You.mp3
+184:West/There For You.mp3
+185:West/They Don't Know.ogg
+186:West/When It Rains It Pours.ogg
+187:West/Tired.mp3
+188:West/Wake Me Up.mp3
+189:West/Addicted To You.mp3
+190:West/True Colors.mp3
+191:West/True Feeling.mp3
+192:West/Follow Me.mp3
+193:West/Up&Up.mp3
+194:West/Somebody To Love.mp3
+195:West/Viva La Vida.mp3
+196:West/What About Us.ogg
+197:West/We Don't Talk Anymore (feat. Selena Gomez) [Hazey Eyes Remix.mp3
+198:West/Feel It Still.ogg
+199:West/Writing's On The Wall.mp3
+200:West/Thinking Out Loud.mp3
+201:West/Gold Dust.mp3
+202:West/Make Me Feel.mp3
+203:West/Yellow.mp3
+204:West/Your Song.mp3
+205:music/DNCE - Cake By TheOcean.mp3
+206:music/01 Alan Walker Alone [PlanetLagu.com].mp3
+207:music/Sam Smith - I'm Not the Only One.mp3
+208:THE BEST  SPANISH GUITAR LOVE SONGS   INSTRUMENTAL ROMANTIC RELAXING SENSUAL LATIN  MUSIC BEST HITS-1ZCPpKkqUmI.webm
+209:Healing And Relaxing Music For Meditation (Guitar And Piano 08) - Pablo Arellano-z7eSpk1YYS0.webm
+210:Relax Music - Guitar & Piano Instrumental Music - Background Music For Study,Work,Sleep-CgG6BA9XVWA.webm
+211:[애니 음악] 듣기좋은 지브리 스튜디오 OST 연속재생,-BxKSbSOHwWg.webm
+212:The Best Of YIRUMA _ Yiruma's Greatest Hits ~ Best Piano-8Z5EjAmZS1o.webm
+213:Passenger/Passenger - Circles.mp3
+214:Passenger/Passenger - All The Little Lights.mp3
+215:4 hours Peaceful & Relaxing Instrumental Music-Long Playlist-CcsUYu0PVxY.webm
+216:6 HOURS - Relaxing - Piano, violin, guitar -  Study music , focus, concentration, memory-2JQsf7i_dXY.webm
+217:Pop-india.mp3
+218:music/Coldplay - Hymn For The Weekend (Seeb remix).mp3
+playlist_end

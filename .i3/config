@@ -1,0 +1,1016 @@
+#    FOR FEDORA LINUX
+#
+#
+#    i3 config file (v4)
+#    Please see http://i3wm.org/docs/userguide.html for a complete reference
+
+#####################################################################################################################################
+#############################################                ########################################################################
+############################################# ALPHABET START ########################################################################
+#############################################                ########################################################################
+#####################################################################################################################################
+#sisa     B
+
+bindsym $mod+Return exec urxvt
+bindsym $mod+e exec urxvt -e 'mc'
+bindsym $mod+n exec urxvt -e 'cmus'
+bindsym $mod+u exec urxvt -e 'htop'
+bindsym $mod+t exec thunar
+
+#Web browser 2
+
+bindsym $mod+w mode "$mode_web"
+set $mode_web WEB > Afirefox Behance Codeacademy Duckduckgo Email Facebook Instagram Messenger gOo.gl Pinterest toRRent Telegram Whatsapp Youtube priVate 
+mode "$mode_web" {
+    bindsym a exec --no-startup-id firefox, mode "default"
+    bindsym b exec --no-startup-id firefox https://www.behance.net/, mode "default"
+    bindsym c exec --no-startup-id firefox www.codecademy.com, mode "default"
+    bindsym d exec --no-startup-id firefox www.duckduckgo.com/, mode "default"
+    bindsym e exec --no-startup-id firefox https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1, mode "default"
+    bindsym f exec --no-startup-id firefox www.facebook.com, mode "default"
+    #bindsym h exec --no-startup-id firefox, mode "default"
+    bindsym i exec --no-startup-id firefox www.instagram.com, mode "default"
+    #bindsym j exec --no-startup-id firefox, mode "default"
+    #bindsym k exec --no-startup-id firefox, mode "default"
+    #bindsym l exec --no-startup-id firefox, mode "default"
+    bindsym m exec --no-startup-id firefox www.messenger.com, mode "default"
+    #bindsym n exec --no-startup-id firefox, mode "default"
+    bindsym o exec --no-startup-id firefox https://goo.gl/, mode "default"
+    bindsym p exec --no-startup-id firefox https://www.pinterest.com/, mode "default"
+    #bindsym q exec --no-startup-id firefox, mode "default"
+    bindsym r exec --no-startup-id firefox https://torrentz2.eu/, mode "default"
+    #bindsym s exec --no-startup-id firefox, mode "default"
+    bindsym t exec --no-startup-id firefox https://web.telegram.org/#/im, mode "default"
+    #bindsym u exec --no-startup-id firefox, mode "default"
+    bindsym v exec --no-startup-id firefox --private-window, mode "default"
+    bindsym w exec --no-startup-id firefox web.whatsapp.com, mode "default"
+    #bindsym x exec --no-startup-id firefox, mode "default"
+    bindsym y exec --no-startup-id firefox www.youtube.com, mode "default"
+    #bindsym z exec --no-startup-id firefox, mode "default"
+    bindsym 3 exec --no-startup-id firefox w3/index.html, mode "default"
+
+    # exit system mode: "Enter" or "Escape"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+    bindsym space mode "default"
+}
+
+#Design 3
+
+bindsym $mod+d mode "$mode_design"
+set $mode_design DESIGN > Dia Fontforge Gimp Inkscape Krita Mypaint Pinta Scribus 
+mode "$mode_design" {
+    bindsym d exec --no-startup-id dia, mode "default"
+    bindsym f exec --no-startup-id fontforge, mode "default"
+    bindsym g exec --no-startup-id gimp, mode "default"
+    bindsym i exec --no-startup-id inkscape, mode "default"
+    bindsym k exec --no-startup-id krita, mode "default"
+    bindsym m exec --no-startup-id mypaint, mode "default"
+    bindsym p exec --no-startup-id pinta, mode "default"
+    bindsym s exec --no-startup-id scribus, mode "default"
+
+    # exit system mode: "Enter" or "Escape"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+    bindsym space mode "default"
+}
+#Animator 4
+bindsym $mod+a mode "$mode_animator"
+set $mode_animator ANIMATOR > Blender Synfigstudio
+mode "$mode_animator" {
+
+    bindsym b exec --no-startup-id blender, mode "default"
+    bindsym s exec --no-startup-id synfigstudio, mode "default"
+    
+    # exit system mode: "Enter" or "Escape"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+    bindsym space mode "default"
+}
+
+#Architect-cad 5
+bindsym $mod+c mode "$mode_cad"
+set $mode_cad ARCHITECT-CAD > Draftsight Freecad Qcad Sweethome3d
+mode "$mode_cad" {
+
+    bindsym d exec --no-startup-id draftsight, mode "default"
+    bindsym f exec --no-startup-id FreeCAD, mode "default"
+    bindsym q exec --no-startup-id qcad, mode "default"
+    bindsym s exec --no-startup-id sweethome3d, mode "default"
+    
+    # exit system mode: "Enter" or "Escape"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+    bindsym space mode "default"
+}
+
+#Musician 6
+bindsym $mod+m mode "$mode_musician"
+set $mode_musician MUSICIAN > Audacity Lmms
+mode "$mode_musician" {
+
+    bindsym a exec --no-startup-id audacity, mode "default"
+    bindsym l exec --no-startup-id lmms, mode "default"
+    
+    # exit system mode: "Enter" or "Escape"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+    bindsym space mode "default"
+}
+
+#Film maker 7
+bindsym $mod+f mode "$mode_film"
+set $mode_film FILM MAKER > Kdenlive kEy-mon Obs-studio oPenshot Ssr 
+mode "$mode_film" {
+
+    bindsym k exec --no-startup-id kdenlive, mode "default"
+    bindsym e exec --no-startup-id key-mon, mode "default"
+    bindsym o exec --no-startup-id obs, mode "default"
+    bindsym p exec --no-startup-id openshot, mode "default"
+    bindsym s exec --no-startup-id simplescreenrecorder --no-systray, mode "default"
+    
+    # exit system mode: "Enter" or "Escape"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+    bindsym space mode "default"
+}
+
+#Developer 8
+bindsym $mod+x mode "$mode_developer
+set $mode_developer DEVELOPER > Android-studio aTom Codeblocks Dia Eclipse Filezilla Genymotion Mysql-workbench Netbeans ninJa-ide Unity-editor Virtualbox
+mode "$mode_developer" {
+
+    bindsym a exec --no-startup-id android-studio, mode "default"
+    bindsym c exec --no-startup-id codeblocks, mode "default"
+    bindsym c exec --no-startup-id eclipse, mode "default"
+    bindsym f exec --no-startup-id filezilla, mode "default"
+    bindsym g exec --no-startup-id genymotion, mode "default"
+    bindsym m exec --no-startup-id mysql-workbench, mode "default"
+    bindsym n exec --no-startup-id netbeans, mode "default"
+    bindsym j exec --no-startup-id ninja-ide, mode "default"
+    bindsym s exec --no-startup-id subl, mode "default"
+    bindsym t exec --no-startup-id atom, mode "default"
+    bindsym u exec --no-startup-id unity-editor, mode "default"
+    bindsym v exec --no-startup-id virtualbox, mode "default"
+
+    # exit system mode: "Enter" or "Escape"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+    bindsym space mode "default"
+}
+
+#Enginerr 9
+bindsym $mod+g mode "$mode_enginerr"
+set $mode_enginerr ENGINERR > Arduino Librecad Eagle Kicad Openscad
+mode "$mode_enginerr" {
+
+    bindsym a exec --no-startup-id arduino, mode "default"
+    bindsym l exec --no-startup-id librecad, mode "default"
+    bindsym e exec --no-startup-id eagle, mode "default"
+    bindsym k exec --no-startup-id kicad, mode "default"
+    bindsym o exec --no-startup-id openscad, mode "default"
+    
+    # exit system mode: "Enter" or "Escape"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+    bindsym space mode "default"
+}
+
+#Office 10
+bindsym $mod+o mode "$mode_office"
+set $mode_office OFFICE > Writer Calc Impress Base Math | Homebank GnuCash Kmymoney Skrooge
+mode "$mode_office"  {
+    bindsym w exec --no-startup-id libreoffice --writer, mode "default"
+    bindsym c exec --no-startup-id libreoffice --calc, mode "default"
+    bindsym i exec --no-startup-id libreoffice --impress, mode "default"
+    bindsym b exec --no-startup-id libreoffice --base, mode "default"
+    bindsym m exec --no-startup-id libreoffice --math, mode "default"
+
+    bindsym h exec --no-startup-id homebank, mode "default"
+    bindsym g exec --no-startup-id gnucash, mode "default"
+    bindsym o exec --no-startup-id kmymoney, mode "default"
+    bindsym s exec --no-startup-id skrooge, mode "default"
+
+    # exit system mode: "Enter" or "Escape"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+    bindsym space mode "default"
+}
+
+#Pentest 11
+bindsym $mod+p mode "$mode_pentest"
+set $mode_pentest PENTEST > Airsnort Chrootkit Httrack Kismon Wireshark Zenmap
+mode "$mode_pentest" {
+
+    bindsym a exec --no-startup-id airsnort, mode "default"
+    bindsym c exec "urxvt -e 'chkrootkit'", mode "default"
+    bindsym h exec --no-startup-id httrack, mode "default"
+    bindsym k exec --no-startup-id kismon, mode "default"
+    bindsym w exec --no-startup-id wireshark-gtk, mode "default"
+    bindsym z exec --no-startup-id zenmap, mode "default"
+
+    # exit system mode: "Enter" or "Escape"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+    bindsym space mode "default"
+}
+
+
+#Learn&Play 12
+
+bindsym $mod+y mode "$mode_lp"
+set $mode_lp LEARN & PLAY > sCratch Mendeley-desktop Ktouch Stellarium sTeam
+mode "$mode_lp" {
+
+    bindsym c exec --no-startup-id scratch, mode "default"
+    bindsym m exec --no-startup-id mendeley-desktop, mode "default"
+    bindsym k exec --no-startup-id ktouch, mode "default"
+    bindsym s exec --no-startup-id stellarium, mode "default"
+    bindsym t exec --no-startup-id steam, mode "default"
+
+    # exit system mode: "Enter" or "Escape"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+    bindsym space mode "default"
+}
+
+#SYSTEM-----------------------------------------------------------------------
+
+#VERSI 1
+#bindsym $mod+End exec lxsession-logout
+
+#VERSI 2: untuk fedora
+bindsym $mod+Shift+q mode "$mode_system"
+set $mode_system SYSTEM > Shutdown Restart Pending Exit Lock
+mode "$mode_system" {
+    bindsym s exec --no-startup-id systemctl poweroff -i, mode "default"
+    bindsym r exec --no-startup-id systemctl reboot -i, mode "default"
+    bindsym l exec --no-startup-id i3lock -c 000000 , mode "default"
+    bindsym p exec --no-startup-id systemctl suspend -i, mode "default"
+    bindsym e exec "i3-nagbar -t warning -m 'Anda mau keluar dari desktop I3-WM ?' -b 'Iya, Benar' 'i3-msg exit'", mode "default"
+
+    # exit system mode: "Enter" or "Escape"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+    bindsym space mode "default"
+}
+
+#VERSI 3 : untuk manjaro
+#bindsym $mod+Shift+q mode "$mode_system"
+#set $mode_system SYSTEM > shutDown Lock Exit switch_User Suspend Hibernate Reboot
+#mode "$mode_system" {
+#    bindsym d exec --no-startup-id i3exit shutdown, mode "default"
+#    bindsym l exec --no-startup-id xbacklight -set 10 && i3lock -c 000000, mode "default"
+#    #bindsym l exec --no-startup-id i3exit lock, mode "default"
+#    bindsym s exec --no-startup-id i3exit suspend, mode "default"
+#    bindsym u exec --no-startup-id i3exit switch_user, mode "default"
+#    bindsym e exec --no-startup-id i3exit logout, mode "default"
+#    bindsym h exec --no-startup-id i3exit hibernate, mode "default"
+#    bindsym r exec --no-startup-id i3exit reboot, mode "default"
+#
+#    # exit system mode: "Enter" or "Escape"
+#    bindsym Return mode "default"
+#    bindsym Escape mode "default"
+#}
+
+# hide/unhide i3status bar
+#bindsym $mod+Shift+i bar mode toggle
+
+#MOUNT/INSERT------------------------------------------------------------------------
+bindsym $mod+i mode "$mode_mount"
+set $mode_mount MOUNT > sd - A B C D E F G H I 
+mode "$mode_mount" {
+    
+    bindsym a exec --no-startup-id udisksctl mount -b /dev/sda1 && mount /dev/sda2 && udisksctl mount -b /dev/sda3 && udisksctl mount -b /dev/sda4 , mode "default"
+    bindsym b exec --no-startup-id udisksctl mount -b /dev/sdb1 && mount /dev/sdb2 && udisksctl mount -b /dev/sdb3 && udisksctl mount -b /dev/sdb4 , mode "default"
+    bindsym c exec --no-startup-id udisksctl mount -b /dev/sdc1 && mount /dev/sdc2 && udisksctl mount -b /dev/sdc3 && udisksctl mount -b /dev/sdc4 , mode "default"
+    bindsym d exec --no-startup-id udisksctl mount -b /dev/sdd1 && mount /dev/sdd2 && udisksctl mount -b /dev/sdd3 && udisksctl mount -b /dev/sdd4 , mode "default"
+    bindsym e exec --no-startup-id udisksctl mount -b /dev/sde1 && mount /dev/sde2 && udisksctl mount -b /dev/sde3 && udisksctl mount -b /dev/sde4 , mode "default"
+    bindsym f exec --no-startup-id udisksctl mount -b /dev/sdf1 && mount /dev/sdf2 && udisksctl mount -b /dev/sdf3 && udisksctl mount -b /dev/sdf4 , mode "default"
+    bindsym g exec --no-startup-id udisksctl mount -b /dev/sdg1 && mount /dev/sdg2 && udisksctl mount -b /dev/sdg3 && udisksctl mount -b /dev/sdg4 , mode "default"
+    bindsym h exec --no-startup-id udisksctl mount -b /dev/sdh1 && mount /dev/sdh2 && udisksctl mount -b /dev/sdh3 && udisksctl mount -b /dev/sdh4 , mode "default"
+    bindsym i exec --no-startup-id udisksctl mount -b /dev/sdi1 && mount /dev/sdi2 && udisksctl mount -b /dev/sdi3 && udisksctl mount -b /dev/sdi4 , mode "default"
+
+    # exit system mode: "Enter" or "Escape"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+    bindsym space mode "default"
+}
+
+#UMOUNT/SAFELY-REMOVE---------------------------------------------------------
+
+bindsym $mod+Shift+i mode "$mode_ejex"
+set $mode_ejex SAFELY REMOVE > sd - A B C D E F G H I
+mode "$mode_ejex" {
+
+    bindsym a exec --no-startup-id udisksctl unmount -b /dev/sda1 /dev/sda2 /dev/sda3 /dev/sda4 /dev/sda5 && udisksctl power-off -b /dev/sda1 /dev/sda2 /dev/sda3 /dev/sda4 /dev/sda5, mode "default"
+    bindsym b exec --no-startup-id udisksctl unmount -b /dev/sdb1 /dev/sdb2 /dev/sdb3 /dev/sdb4 /dev/sdb5 && udisksctl power-off -b /dev/sdb1 /dev/sdb2 /dev/sdb3 /dev/sdb4 /dev/sdb5, mode "default"
+    bindsym c exec --no-startup-id udisksctl unmount -b /dev/sdc1 /dev/sdc2 /dev/sdc3 /dev/sdc4 /dev/sdc5 && udisksctl power-off -b /dev/sdc1 /dev/sdc2 /dev/sdc3 /dev/sdc4 /dev/sdc5, mode "default"
+    bindsym d exec --no-startup-id udisksctl unmount -b /dev/sdd1 /dev/sdd2 /dev/sdd3 /dev/sdd4 /dev/sdd5 && udisksctl power-off -b /dev/sdd1 /dev/sdd2 /dev/sdd3 /dev/sdd4 /dev/sdd5, mode "default"
+    bindsym e exec --no-startup-id udisksctl unmount -b /dev/sde1 /dev/sde2 /dev/sde3 /dev/sde4 /dev/sde5 && udisksctl power-off -b /dev/sde1 /dev/sde2 /dev/sde3 /dev/sde4 /dev/sde5, mode "default"
+    bindsym f exec --no-startup-id udisksctl unmount -b /dev/sdf1 /dev/sdf2 /dev/sdf3 /dev/sdf4 /dev/sdf5 && udisksctl power-off -b /dev/sdf1 /dev/sdf2 /dev/sdf3 /dev/sdf4 /dev/sdf5, mode "default"
+    bindsym g exec --no-startup-id udisksctl unmount -b /dev/sdg1 /dev/sdg2 /dev/sdg3 /dev/sdg4 /dev/sdg5 && udisksctl power-off -b /dev/sdg1 /dev/sdg2 /dev/sdg3 /dev/sdg4 /dev/sdg5, mode "default"
+    bindsym h exec --no-startup-id udisksctl unmount -b /dev/sdh1 /dev/sdh2 /dev/sdh3 /dev/sdh4 /dev/sdh5 && udisksctl power-off -b /dev/sdh1 /dev/sdh2 /dev/sdh3 /dev/sdh4 /dev/sdh5, mode "default"
+    bindsym i exec --no-startup-id udisksctl unmount -b /dev/sdi1 /dev/sdi2 /dev/sdi3 /dev/sdi4 /dev/sdi5 && udisksctl power-off -b /dev/sdi1 /dev/sdi2 /dev/sdi3 /dev/sdi4 /dev/sdi5, mode "default"
+    bindsym j exec --no-startup-id udisksctl unmount -b /dev/sdj1 /dev/sdj2 /dev/sdj3 /dev/sdj4 /dev/sdj5 && udisksctl power-off -b /dev/sdj1 /dev/sdj2 /dev/sdj3 /dev/sdj4 /dev/sdj5, mode "default"
+    bindsym k exec --no-startup-id udisksctl unmount -b /dev/sdk1 /dev/sdk2 /dev/sdk3 /dev/sdk4 /dev/sdk5 && udisksctl power-off -b /dev/sdk1 /dev/sdk2 /dev/sdk3 /dev/sdk4 /dev/sdk5, mode "default"
+
+    # exit system mode: "Enter" or "Escape"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+    bindsym space mode "default"
+}
+
+#CONFIG-------------------------------------------------------------------
+bindsym $mod+Shift+slash mode "$mode_config"
+set $mode_config CONFIG > Arandr Lxppearance Bluetooth Gparted Install Network Printer Qtconfig qT5ct Sound Wallpaper
+mode "$mode_config" {
+
+    bindsym a exec arandr --force-version, mode "default"
+    bindsym b exec blueberry, mode "default"
+    bindsym g exec gparted, mode "default"
+    bindsym i exec dnfdragora, mode "default"
+    bindsym l exec lxappearance, mode "default"
+    bindsym n exec urxvt -e 'nmtui', mode "default"
+    bindsym p exec system-config-printer, mode "default"
+    bindsym q exec qtconfig-qt4 ,mode "default"
+    bindsym t exec qt5ct ,mode "default"
+    bindsym s exec urxvt -e 'alsamixer', mode "default"
+    bindsym w exec nitrogen, mode "default"
+    #bindsym i exec pamac-manager, mode "default"
+    #bindsym m exec urxvt -e 'bmenu', mode "default"
+    #bindsym s exec manjaro-settings-manager, mode "default"
+
+    # exit system mode: "Enter" or "Escape"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+    bindsym space mode "default"
+}
+
+
+#PRESENTATION-------------------------------------------------------------------
+bindsym $mod++Shift+p mode "$mode_present"
+set $mode_present PRESENTATION > Presentation Normal
+mode "$mode_present" {
+
+    #presentation:
+    bindsym p exec ~/Shell/presentasi.sh, mode "default"
+    #bindsym $mod+p exec xrandr --output HDMI1 --off --output LVDS1 --primary --mode 1024x768 --pos 0x0 --rotate normal --output VIRTUAL1 --off --output DP1 --off --output VGA1 --off
+    
+    #normal:
+    bindsym n exec ~/Shell/normal.sh, mode "default"
+    #bindsym $mod+Shift+p exec xrandr --output HDMI1 --off --output LVDS1 --primary --mode 1366x768 --pos 0x0 --rotate normal --output VIRTUAL1 --off --output DP1 --off --output VGA1 --off
+
+    #dual kanan:
+    bindsym d exec ~/Shell/dual.sh, mode "default"
+    # exit system mode: "Enter" or "Escape"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+    bindsym space mode "default"
+}
+
+# KILL -----------------------------------------------------------------------
+# kill focused window
+bindsym $mod+q kill
+
+# MENU -----------------------------------------------------------------------
+#bindsym $mod+Shift+z exec --no-startup-id dmenu_recency
+bindsym $mod+z exec --no-startup-id i3-dmenu-desktop
+#bindsym $mod+z exec --no-startup-id morc_menu
+#bindsym $mod+z exec ~/.i3/dmenu-run.sh
+bindsym $mod+Shift+z exec --no-startup-id dmenu_run -nf white -nb "#151820" -fn "Freemono" -sb "#2F343F" -sf "#ffffff"
+##bindsym $mod+x exec --no-startup-id urxvt -e 'bmenu'
+
+#SCREENSHOOT------------------------------------------------------------------
+bindsym Print exec --no-startup-id scrot '%T_%d-%m-%Y_$wx$h_screen.png' -q 100 -e 'mv $f ~/Pictures/'
+
+#SOUND------------------------------------------------------------------------
+# versi 1
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +1% #increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -1% #decrease sound volume
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+
+# versi 2
+bindsym $mod+comma exec --no-startup-id pactl set-sink-volume 0 -1% #increase sound volume 
+bindsym $mod+period exec --no-startup-id pactl set-sink-volume 0 +1% #decrease sound volume #super+;
+bindsym $mod+slash exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound #super+'
+
+#BRIGHTNESS-------------------------------------------------------------------
+# Screen brightness controls
+# versi 1
+#bindsym XF86MonBrightnessDown exec "xbacklight -dec 3; notify-send 'Kecerahan turun'"
+#bindsym XF86MonBrightnessUp exec "xbacklight -inc 3; notify-send 'Kecerahan naik'"
+                
+# Start Applications
+# bindsym XF86MonBrightnessUp exec "xbacklight -inc 5
+# bindsym XF86MonBrightnessDown exec "xbacklight -dec 5 
+
+# versi 2
+#bindsym $mod+comma exec "xbacklight -dec 3; notify-send 'Kecerahan turun'"
+#bindsym $mod+period exec "xbacklight -inc 3; notify-send 'Kecerahan naik'"
+#bindsym $mod+slash exec xbacklight -set 1 #dim desktop
+
+# BORDER --------------------------------------------------------------------
+# change borders
+bindsym $mod+Ctrl+u border none
+bindsym $mod+Ctrl+y border pixel 1
+bindsym $mod+Ctrl+n border normal
+
+# RESIZE ---------------------------------------------------------------------
+# Resize window (you can also use the mouse for that)
+bindsym $mod+r mode "resize"
+mode "resize" {
+        # These bindings trigger as soon as you enter the resize mode
+        # Pressing left will shrink the window’s width.
+        # Pressing right will grow the window’s width.
+        # Pressing up will shrink the window’s height.
+        # Pressing down will grow the window’s height.
+        bindsym h resize shrink width 1 px or 1 ppt
+        bindsym j resize grow height 1 px or 1 ppt
+        bindsym k resize shrink height 1 px or 1 ppt
+        bindsym l resize grow width 1 px or 1 ppt
+
+        ## same bindings, but for the arrow keys
+        bindsym Left resize shrink width 1 px or 1 ppt
+        bindsym Down resize grow height 1 px or 1 ppt
+        bindsym Up resize shrink height 1 px or 1 ppt
+        bindsym Right resize grow width 1 px or 1 ppt
+        
+        # exit resize mode: Enter or Escape
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym space mode "default"
+}
+
+# FOCUS ----------------------------------------------------------------------
+# focus_follows_mouse no
+
+# change focus
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+
+bindsym $mod+Tab focus right
+bindsym $mod+Shift+Tab focus left
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# move focused window
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# split orientation
+##exec notify-send 'Horizontally'
+bindsym $mod+Shift+v split h
+##exec notify-send 'Vertically'
+bindsym $mod+v split v
+##bindsym $mod+q split toggle
+
+# toggle fullscreen mode for the focused container
+bindsym $mod+Shift+f fullscreen toggle
+
+# change container layout (stacked, tabbed, toggle split)
+##bindsym $mod+w layout stacking
+bindsym $mod+s layout toggle split
+bindsym $mod+Shift+s layout tabbed
+
+# toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+
+# change focus between tiling / floating windows
+##bindsym $mod+space focus mode_toggle
+
+# toggle sticky
+##bindsym $mod+Shift+s sticky toggle
+
+# focus the parent container
+bindsym $mod+Shift+a focus parent
+
+# move the currently focused window to the scratchpad
+##bindsym $mod+Shift+minus move scratchpad
+
+# Show the next scratchpad window or hide the focused scratchpad window.
+# If there are multiple scratchpad windows, this command cycles through them.
+##bindsym $mod+minus scratchpad show
+
+#navigate workspaces next / previous
+
+bindsym $mod+Ctrl+l workspace next
+bindsym $mod+Ctrl+h workspace prev 
+
+bindsym $mod+Ctrl+Shift+l move workspace next; workspace next
+bindsym $mod+Ctrl+Shift+h move workspace prev; workspace prev
+
+#navigate workspaces next / previous
+bindsym $mod+Ctrl+Right workspace next
+bindsym $mod+Ctrl+Left workspace prev 
+
+bindsym $mod+Ctrl+Shift+Right move workspace next; workspace next
+bindsym $mod+Ctrl+Shift+Left move workspace prev; workspace prev
+
+
+#############################################################################
+#############################################################################
+#############################################################################
+#############################################################################
+
+
+
+##########################
+#####     MOD     ########
+#########################
+
+# Set mod key (Mod1=<Alt>, Mod4=<Super>)
+set $mod Mod4
+
+###############################
+#####     TILLING MODE    #####
+###############################
+
+# set default desktop layout (default is tiling)
+# workspace_layout tabbed <stacking|tabbed>
+workspace_layout tabbed
+
+###########################
+#####   NEW WINDOW    #####
+###########################
+
+# Configure border style <normal|1pixel|pixel xx|none|pixel>
+#new_window normal
+#new_window pixel 1
+new_window none
+#new_window 1pixel
+new_float normal
+
+#########################
+#####   HIDE MODE   #####
+#########################
+# Hide borders
+hide_edge_borders none
+
+#########################
+########## FONT #########
+#########################
+# Font for window titles. Will also be used by the bar unless a different font
+# is used in the bar {} block below.
+font pango:Bitstream Vera Sans Mono 8
+
+# Use Mouse+$mod to drag floating windows
+floating_modifier $mod
+
+###############
+## INDIKATOR ##
+###############
+
+bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
+bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
+
+###############
+## AUTOSTART ##
+###############
+#exec --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "Synaptics ClickPad" 1
+#exec --no-startup-id urxvt
+exec --no-startup-id xset -b
+#exec --no-startup-id xbacklight -set 20
+#exec --no-startup-id start-pulseaudio-x11
+exec --no-startup-id spice-vdagent
+exec --no-startup-id xset r rate 300 32 
+#exec --no-startup-id synclient TapButton1=1
+#exec --no-startup-id xautolock -I 10 -locker i3lock -c 000000 -e
+#exec --no-startup-id xdg-user-dir-update
+#exec_always --no-startup-id ff-theme-util
+#exec_always --no-startup-id fix_xcursor
+exec_always --no-startup-id systemctl --user start obex
+
+##exec --no-startup-id blueman-applet
+##exec --no-startup-id blueberry-tray
+##exec --no-startup-id albert
+##exec --no-startup-id nm-applet &
+##exec --no-startup-id redshift-gtk
+
+##exec --no-startup-id pa-applet
+##exec --no-startup-id volumeicon
+#exec --no-startup-id manjaro-hello
+##exec --no-startup-id xfce44-power-manager
+##exec --no-startup-id pamac-tray
+##exec --no-startup-id clipit
+##exec --no-startup-id blueman
+##exec_always --no-startup-id sbxkb
+##exec --no-startup-id start_conky_solarized
+##exec --no-startup-id start_conky_live_green
+##exec --no-startup-id start_conky_live_grey
+##exec --no-startup-id start_conky_grey
+##exec --no-startup-id start_conky_maia
+##exec --no-startup-id start_conky_green
+
+###############
+## WALLPAPER ##
+###############
+
+#solid color
+#exec --no-startup-id xsetroot -solid "#002B36"
+exec --no-startup-id xsetroot -solid "#151820"
+#exec --no-startup-id xsetroot -solid "#000000"
+
+#background
+#exec --no-startup-id nitrogen --restore; sleep 1; compton -b
+#exec --no-startup-id nitrogen --restore
+#exec --no-startup-id feh --bg-scale /home/hervy/pictures/wall.jpg
+
+############
+## POLKIT ##
+############
+
+##manjaro/arch:
+#exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+
+##fedora-gnome:
+#exec /usr/libexec/polkit-gnome-authentication-agent-1 &
+
+##fedora-xfce:
+exec /usr/libexec/xfce-polkit
+
+##fedora-qt
+#exec --no-startup-id /usr/lib/polkit-1/polkit-agent-helper-1 &
+
+###############
+## WORKSPACE ##
+###############
+# Workspace names
+# to display names or symbols instead of plain workspace numbers you can use
+# something like: set $ws1 1:mail
+#                 set $ws2 2:
+#set $workspace1 "1: Firefox "
+#set $workspace2 "2: Terminal "
+
+###
+
+#untuk fedora
+set $ws1 1: Terminal
+#
+set $ws2 2: Web
+#
+set $ws3 3: Designer
+#
+set $ws4 4: Animator
+#
+set $ws5 5: Achitect-CAD
+#
+set $ws6 6: Musician
+#
+set $ws7 7: Film-Maker
+#
+set $ws8 8: Developer
+#
+set $ws9 9: Enginerr
+#
+set $ws10 10: Office
+#
+set $ws11 11: Pentest
+#
+set $ws12 12: Edu-Play
+#
+
+#untuk manjaro
+#set $ws1 1: Terminal 
+#set $ws2 2: Browsers 
+#set $ws3 3: Designer 
+#set $ws4 4: Animator 
+#set $ws5 5: Architect 
+#set $ws6 6: Musician 
+#set $ws7 7: Film maker 
+#set $ws8 8: Developer 
+#set $ws9 9: Enginerr 
+#set $ws10 10: Accountant 
+#set $ws11 11: Gamers 
+#set $ws12 12: Student 
+
+# switch to workspace
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws10
+bindsym $mod+minus workspace $ws11
+bindsym $mod+plus workspace $ws12
+
+# Move to workspace with focused container
+bindsym $mod+Shift+1 move container to workspace $ws1; workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2; workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3; workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4; workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5; workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6; workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9; workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws10; workspace $ws10
+bindsym $mod+Shift+minus move container to workspace $ws11; workspace $ws11
+bindsym $mod+Shift+plus move container to workspace $ws12; workspace $ws12
+
+# Move focused container to workspace
+bindsym $mod+Ctrl+1 move container to workspace $ws1
+bindsym $mod+Ctrl+2 move container to workspace $ws2
+bindsym $mod+Ctrl+3 move container to workspace $ws3
+bindsym $mod+Ctrl+4 move container to workspace $ws4
+bindsym $mod+Ctrl+5 move container to workspace $ws5
+bindsym $mod+Ctrl+6 move container to workspace $ws6
+bindsym $mod+Ctrl+7 move container to workspace $ws7
+bindsym $mod+Ctrl+8 move container to workspace $ws8
+bindsym $mod+Ctrl+9 move container to workspace $ws9
+bindsym $mod+Ctrl+0 move container to workspace $ws10
+bindsym $mod+Ctrl+minus move container to workspace $ws11
+bindsym $mod+Ctrl+plus move container to workspace $ws12
+
+# Open applications on specific workspaces
+
+#Terminal 1
+assign [class="i3-sensible-terminal"] $ws1
+assign [class="terminal"] $ws1
+assign [class="terminator"] $ws1
+assign [class="Leafpad"] $ws1
+assign [title="urxvt"] $ws1
+assign [class="Pcmanfm"] $ws1
+assign [class="Thunar"] $ws1
+assign [title="ranger"] $ws1
+assign [title="mocp"] $ws1
+assign [title="cmus"] $ws1
+
+#Web 2
+assign [class="Firefox"] $ws2
+assign [class="QupZilla"] $ws2
+assign [title="Google Chrome"] $ws2
+assign [title="Pale Moon"] $ws2
+
+#Designer 3
+assign [class="Gimp"] $ws3
+assign [class="Inkscape"] $ws3
+assign [class="Scribus"] $ws3
+assign [title="darktable"] $ws3
+assign [class="fontforge"] $ws3
+assign [class="MyPaint"] $ws3
+assign [class="krita"] $ws3
+assign [class="Pinta"] $ws3
+assign [class="Sk1"] $ws3
+assign [title="Wings3D"] $ws3
+assign [class="Dia"] $ws3
+
+#Animator 4
+assign [class="Blender"] $ws4
+assign [class="Synfig Studio"] $ws4
+assign [title="LuxRender"] $ws4
+
+#Architect 5
+assign [class="Draftsight"] $ws5
+assign [class="FreeCAD"] $ws5
+assign [class="LibreCAD"] $ws5
+assign [class="QCAD"] $ws5
+assign [class="sweethome3d"] $ws5
+assign [class="MeshLab"] $ws5
+assign [class="OpenSCAD"] $ws5
+
+#Musician 5
+assign [class="Audacity"] $ws6
+assign [title="LMMS"] $ws6
+assign [class="Audacious"] $ws6
+assign [class="Ardour"] $ws6
+assign [class="Canorus"] $ws6
+assign [title="Guitarix"] $ws6
+assign [title="HandBrake"] $ws6
+assign [class="Hydrogen"] $ws6
+assign [class="Mixxx"] $ws6
+assign [title="MuseScore"] $ws6
+assign [class="yarock"] $ws6
+assign [title="recordMyDesktop"] $ws6
+
+#Film Maker 6
+assign [class="openshot-qt"] $ws7
+assign [class="vlc"] $ws7
+assign [title="Kazam"] $ws7
+assign [class="obs"] $ws7
+assign [class="kdenlive"] $ws7
+assign [class="SimpleScreenRecorder"] $ws7
+assign [class="Avidemux-qt"] $ws7
+assign [class="Pitivi"] $ws7
+
+#Developer 7
+assign [class="Atom"] $ws8
+assign [title="Android Studio"] $ws8
+assign [class="gambas3"] $ws8
+assign [class="Codeblocks"] $ws8
+assign [class="Eclipse"] $ws8
+assign [class="Emacs"] $ws8
+assign [class="Filezilla"] $ws8
+assign [class="Genymotion"] $ws8
+assign [class="NetBeans"] $ws8
+assign [class="Ninja-ide"] $ws8
+assign [title="Octave"] $ws8
+assign [class="Pamac-manager"] $ws8
+assign [class="subl"] $ws8
+assign [class="Unity"] $ws8
+assign [class="(?i)virtualbox"] $ws8
+assign [title="WoeUSB"] $ws8
+assign [title="KDevelop"] $ws8
+
+#Enginerr 9
+assign [title="Arduino"] $ws9
+assign [class="Kicad"] $ws9
+assign [class="Pcb"] $ws9
+assign [class="Freemat"] $ws9
+assign [class="Eagle"] $ws9
+
+#Office 10
+assign [class="Gnucash"] $ws10
+assign [class="Homebank"] $ws10
+assign [class="Billreminder"] $ws10
+assign [class="Hledger"] $ws10
+assign [class="Kmymoney"] $ws10
+assign [class="Pspp"] $ws10
+assign [title="Money Manager Ex"] $ws10
+assign [class="skrooge"] $ws10
+assign [title="LibreOffice"] $ws10
+assign [class="libreoffice"] $ws10
+
+#Pentest 11
+assign [title="AirSnort"] $ws11
+assign [title="Httrack"] $ws11
+assign [class="Kismon"] $ws11
+assign [class="Wireshark"] $ws11
+assign [class="Zenmap"] $ws11
+
+#Edu-Play12
+assign [class="Mendeley Desktop"] $ws12
+assign [title="Typewriting Trainer"] $ws12
+assign [title="Stellarium"] $ws12
+assign [title="Scratch.image"] $ws6
+assign [title="Steam"] $ws12
+
+# Open specific applications in floating mode
+for_window [class="Arandr"] floating enable border normal
+for_window [title="alsamixer"] floating enable border none
+for_window [title="Alien Arena"] fullscreen enable 
+for_window [title="Android Studio Setup Wizard"] floating enable border normal
+for_window [title="Blender User Preferences"] floating enable border normal
+for_window [class="Blueberry"] floating enable border normal
+for_window [title="bmenu"] floating enable border none
+for_window [class="Calamares"] floating enable border normal
+for_window [class="Clipgrab"] floating enable
+for_window [title="Dia v"] floating enable border normal
+for_window [title="File Transfer*"] floating enable
+for_window [class="Flowblade Timeline Rander"] floating enable sticky enable border normal
+for_window [class="Galculator"] floating enable border pixel 1
+for_window [title="Fedora Media Writer"] floating enable border pixel 1
+for_window [class="GParted"] floating enable border normal
+for_window [title="GIMP Startup"] floating enable border none
+for_window [class="Gpick"] floating enable border pixel 1
+for_window [title="i3_help"] floating enable sticky enable border normal
+for_window [class="Key-mon"] floating enable sticky enable border 1
+for_window [title="Kamus"] floating enable border none
+for_window [title="Gkamus"] floating enable border none
+for_window [class="KBBI-Qt"] floating enable border none
+for_window [class="Lightdm-gtk-greeter-settings"] floating enable
+for_window [class="Lxappearance"] floating enable sticky enable border normal
+for_window [class="Manjaro-hello"] floating enable
+for_window [class="Manjaro Settings Manager"] floating enable border normal
+#for_window [class="(?i)mupdf"] fullscreen enable 
+for_window [class="(?i)xpdf"] fullscreen enable 
+for_window [title="MuseScore: Play Panel"] floating enable
+for_window [class="Nitrogen"] floating enable sticky enable border normal
+for_window [title="nmtui"] floating enable border none
+for_window [class="Oblogout"] fullscreen enable
+for_window [class="octopi"] floating enable
+for_window [title="About Pale Moon"] floating enable
+#for_window [class="Pamac-manager"] floating enable
+for_window [class="Pavucontrol"] floating enable
+for_window [class="qt5ct"] floating enable sticky enable border normal
+for_window [title="recordMyDesktop"] floating enable
+for_window [class="Qtconfig-qt4"] floating enable sticky enable border normal
+for_window [class="Simple-scan"] floating enable border normal
+for_window [title="SimpleScreenRecorder*"] floating enable border normal
+for_window [class="(?i)System-config-printer.py"] floating enable border normal
+for_window [class="Skype"] floating enable border normal
+for_window [class="Thus"] floating enable border normal
+for_window [title="The Battle for Wesnoth"] fullscreen enable 
+for_window [class="Timeset-gui"] floating enable border normal
+#for_window [class="(?i)virtualbox"] fullscreen enable border normal
+for_window [title="WoeUSB"] floating enable border normal
+for_window [class="Xfburn"] floating enable
+
+# switch to workspace with urgent window automatically
+for_window [urgent=latest] focus
+
+# reload the configuration file
+bindsym $mod+Shift+c reload
+
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+
+set_from_resource $term_background background
+set_from_resource $term_foreground foreground
+set_from_resource $term_color0     color0
+set_from_resource $term_color1     color1
+set_from_resource $term_color2     color2
+set_from_resource $term_color3     color3
+set_from_resource $term_color4     color4
+set_from_resource $term_color5     color5
+set_from_resource $term_color6     color6
+set_from_resource $term_color7     color7
+set_from_resource $term_color8     color8
+set_from_resource $term_color9     color9
+set_from_resource $term_color10    color10
+set_from_resource $term_color11    color11
+set_from_resource $term_color12    color12
+set_from_resource $term_color13    color13
+set_from_resource $term_color14    color14
+set_from_resource $term_color15    color15
+
+# Color palette used for i3 
+# Variables are set based on the documentation:
+# https://i3wm.org/dovs/userguide.html#variables
+# Changing the value of one of the variables will
+# effect all the areas with the same color.
+
+set $base00 #151820
+set $base01 #151820
+set $base02 #1C212E
+set $base03 #7780a1
+set $base04 #C0C5CE
+set $base05 #d1d4e0
+set $base06 #C9CCDB
+set $base07 #ffffff
+set $base08 #30FFFF
+set $base09 #f99170
+set $base0A #ffefcc
+set $base0B #a5ffe1
+set $base0C #97e0ff
+set $base0D #97bbf7
+set $base0E #c0b7f9
+set $base0F #fcc09e
+set $base0G #00ffff
+
+bar {
+	#untuk fedora : i3status
+        status_command i3status -c ~/.i3/i3status.conf
+        #status_command i3status 
+
+	#untuk manjaro : i3blocks
+        #status_command i3blocks -c ~/.i3/i3blocks.conf
+        #status_command i3blocks 
+
+	    font pango: Bitstream Vera Sans Mono 8 
+        position top
+        #strip_workspace_numbers yes
+        #bindsym button4 nop
+        #bindsym button5 nop
+        colors {
+              separator $base00
+              background $base00
+              statusline $base05
+#                                border  background text
+              focused_workspace  $base02 $base02    $base07
+              active_workspace   $base00 $base02    $base03
+              inactive_workspace $base00 $base00    $base03
+              urgent_workspace   $base00 $base00    $base08
+    }
+}
+
+
+
+# Widow Colours
+#                         border  background text    indicator
+  client.focused          $base02 $base02    $base07 $base03
+  client.focused_inactive $base00 $base00    $base03 $base03
+  client.unfocused        $base00 $base00    $base03 $base03
+  client.urgent           $base00 $base08    $base00 $base03
+
+# M E D I A  P L A Y E R
+##bindsym XF86AudioPlay exec audacious -t #play/pause
+##bindsym XF86AudioNext exec audacious -f #next
+##bindsym XF86AudioPrev exec audacious -r #previous
+
+#bindsym XF86AudioMedia exec playerctl
+bindsym XF86AudioPlay exec playerctl play-pause
+#bindsym XF86AudioPause exec playerctl pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+
+# Touchpad controls
+#bindsym XF86TouchpadToggle exec ~/.config/i3/toggletouchpad.sh # toggle touchpad
