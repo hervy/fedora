@@ -7,7 +7,7 @@
 
 | Item | Value |
 | :--- | :---- |
-| OS | Fedora 27 (Server Edition) |
+| OS | Fedora 27 (Server Edition) or Centos 7 |
 | Fav WM(s) | i3 |
 | Fav DM(s) | sddm |
 | Shell | bash |
