@@ -3,6 +3,9 @@
 # Fedora update:
 $ fu
 
+# Install RPMFusion
+$ install-rpmfusion-fedora
+
 # Install basic for fedora
 $ install-basic-fedora
 
@@ -23,6 +26,9 @@ $ fs gimp
 
 # Fedora clean
 $ fc
+
+# Install web server basic
+$ install-webserver-fedora
 
 # open config .basrc at ~
 $ vimbr
