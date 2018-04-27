@@ -1,10 +1,10 @@
 ## ===============================================================
-## For Fedora / Centos
+<h1 align="center">For Fedora and Centos linux</h1>
 ## ===============================================================
 # ![](ss.png)
 # ![](ss2.png)
 ## ===============================================================
-# Details
+<h1 align="center">Details >></h1>
 
 | Item | Value |
 | :--- | :---- |
@@ -26,19 +26,19 @@
 | Text Editor | vim, nvim + tmux |
 
 ## ===============================================================
-# Step 1 >>
+<h1 align="center">Step 1 >></h1>
 ## Fedora update:
 $ fu
 ## Centos update:
 $ cu
 ## ===============================================================
-# Step 2 >>
+<h1 align="center">Step 2 >></h1>
 ## Install RPMFusion for fedora
 $ rff
 ## Install RPMFusion for centos
 $ rfc
 ## ===============================================================
-# Step 3 (Optional, only centos)>>
+<h1 align="center">Step 3 (Optional, only centos) >></h1>
 ## Install Epel repo
 $ epel
 ## Install Nux-dextop repo
@@ -46,38 +46,38 @@ $ nux
 ## Install Remi repo
 $ remi
 ## ===============================================================
-# Step 5 >>
+<h1 align="center">Step 4 >></h1>
 ## Install basic for fedora
 $ bf
 ## Install basic for centos
 $ bc
 ## ===============================================================
-# Step 6 (optional, GUI apps : firefox, gimp, inkscape, etc) >>
+<h1 align="center">Step 5 (optional, GUI apps : firefox, gimp, inkscape, etc) >></h1>
 ## Install basic for fedora (GUI APP)
 $ bf2
 ## Install basic for centos (GUI APP)
 $ bc2
 ## ===============================================================
-# Step 7 >>
+<h1 align="center">Step 6 >></h1>
 ## Install codec for fedora
 $ cf
 ## Install codec for centos
 $ cc
 ## ===============================================================
-# Step 8 (optional)>>
+<h1 align="center">Step 7 (Optional) >></h1>
 ## Install i3-wm for fedora
 $ i3f
 ## Install i3-wm for centos
 $ i3c
 ## ===============================================================
-# Step 9 (Optional)>>
+<h1 align="center">Step 8 (Optional) >></h1>
 ## Install web server basic for fedora
 $ wf
 ## Install web server basic for centos
 $ wc
 ## ===============================================================
 
-# Etc.>>
+<h1 align="center">Etc. >></h1>
 ## ===============================================================
 ## Fedora install, ex install gimp >>
 $ fi gimp
