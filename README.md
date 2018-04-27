@@ -15,6 +15,9 @@ $ install-basic-fedora2
 # Install i3-wm for fedora
 $ install-i3-fedora
 
+# Install codec for fedora
+$ install-codec-fedora
+
 # Fedora install, ex install gimp:
 $ fi gimp
 
@@ -30,7 +33,7 @@ $ fc
 # Install web server basic
 $ install-webserver-fedora
 
-# open config .basrc at ~
+# open config .basrc at ~ (more info alias)
 $ vimbr
 
 # open config .Xresource at ~
