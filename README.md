@@ -20,7 +20,7 @@
 | Bluetooth Applet | blueberry |
 | Text Editor | vim, nvim + tmux |
 
-![](ss.png)\
+![](ss.png)
 
 ## Fedora update:
 $ fu
