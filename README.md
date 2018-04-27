@@ -1,4 +1,4 @@
-## Only for fedora
+## Only for Fedora / Centos
 
 # ![](ss.png)
 
@@ -6,7 +6,7 @@
 
 | Item | Value |
 | :--- | :---- |
-| OS | Fedora 16.04 |
+| OS | Fedora 27 (Server Edition) |
 | Fav WM(s) | i3 |
 | Shell | bash |
 | Font | Sans 8 |
@@ -22,24 +22,43 @@
 | Bluetooth Applet | blueberry |
 | Text Editor | vim, nvim + tmux |
 
+# Step 1
 ## Fedora update:
 $ fu
+## Centos update:
+$ cu
 
-## Install RPMFusion
+# Step 2
+## Install RPMFusion for fedora
 $ install-rpmfusion-fedora
+## Install RPMFusion for centos
+$ install-rpmfusion-centos
 
+# Step 3
 ## Install basic for fedora
 $ install-basic-fedora
+## Install basic for centos
+$ install-basic-fedora
 
+# Step 4 (optional, GUI apps : firefox, gimp, inkscape, etc)
 ## Install basic for fedora (GUI APP)
 $ install-basic-fedora2
+## Install basic for centos (GUI APP)
+$ install-basic-centos2
 
+# Step 5
 ## Install i3-wm for fedora
 $ install-i3-fedora
+## Install i3-wm for centos
+$ install-i3-centos
 
+# Step 6
 ## Install codec for fedora
 $ install-codec-fedora
+## Install codec for centos
+$ install-codec-centos
 
+## ===================================
 ## Fedora install, ex install gimp:
 $ fi gimp
 
