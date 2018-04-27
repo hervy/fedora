@@ -28,7 +28,7 @@ alias fu="sudo dnf update"
 alias fi="sudo dnf install"
 alias fr="sudo dnf remove"
 alias fs="dnf search"
-alias fc="dnf clean all"
+alias fx="dnf clean all"
 alias fgl="sudo dnf grouplist -v"
 alias fgi="dnf groupinfo"
 alias fif="dnf info"
@@ -38,7 +38,7 @@ alias cu="sudo yum update"
 alias ci="sudo yum install"
 alias cr="sudo yum remove"
 alias cs="yum search"
-alias cc="yum clean all"
+alias cx="yum clean all"
 alias cgl="sudo yum grouplist -v"
 alias cgi="yum groupinfo"
 alias cif="yum info"
@@ -51,59 +51,55 @@ alias ddw="sudo woeusb --device"
 alias cm="cmus"
 alias mp="moc"
 
-cari () {
+find () {
 	KEYWORD=$@
 	find -name "*${KEYWORD}*"
 }
 
 #install rpm-fusion-fedora
-alias install-rpmfusion-fedora="sudo dnf -y install http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm"
+alias rff="sudo dnf -y install http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm"
 
 #install rpm-fusion-centos
-alias install-rpmfusion-centos="sudo yum -y localinstall --nogpgcheck http://download1.rpmfusion.org/free/el/updates/6/i386/rpmfusion-free-release-6-1.noarch.rpm http://download1.rpmfusion.org/nonfree/el/updates/6/i386/rpmfusion-nonfree-release-6-1.noarch.rpm"
+alias rfc="sudo yum -y localinstall --nogpgcheck http://download1.rpmfusion.org/free/el/updates/6/i386/rpmfusion-free-release-6-1.noarch.rpm http://download1.rpmfusion.org/nonfree/el/updates/6/i386/rpmfusion-nonfree-release-6-1.noarch.rpm"
 
 #install nux for centos
-alias install-nux="sudo yum -y install http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.nux.noarch.rpm"
+alias nux="sudo yum -y install http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.nux.noarch.rpm"
 
 #install remi for centos
-alias install-remi="sudo yum -y install http://rpms.famillecollet.com/enterprise/remi-release-7.rpm"
+alias remi="sudo yum -y install http://rpms.famillecollet.com/enterprise/remi-release-7.rpm"
 
 #install epel for centos
-alias install-epel="sudo yum -y install epel-release"
+alias epel="sudo yum -y install epel-release"
 
 #install-basic for centos (unrar rpmfusion)
-alias install-basic-centos="sudo yum -y install glances mpd ncmpcpp terminus-fonts-console terminus-fonts ntfsprogs pulseaudio-utils p7zip p7zip-plugins arandr figlet tmux udisks2 vim neovim ntfs-3g fuse htop inxi mc screenfetch openssh sshfs alsa-utils composer youtube-dl unrar NetworkManager-tui mupdf ncmpcpp rtorrent srm fontawesome-fonts fontawesome-fonts-web icedtea-web ffmpeg HandBrake-{gui,cli} gstreamer{,1}-plugins-ugly gstreamer-plugins-bad-nonfree gstreamer1-plugins-bad-freeworld zlib.i686 ncurses-libs.i686 bzip2-libs.i686 postgresql-libs nodejs npm p7zip p7zip-plugins unrar mesa-dri-drivers mesa-libGL mariadb mariadb-server httpd php php-mysqlnd php-opcache phpmyadmin"
+alias bc="sudo yum -y install glances mpd ncmpcpp terminus-fonts-console terminus-fonts ntfsprogs pulseaudio-utils p7zip p7zip-plugins arandr figlet tmux udisks2 vim neovim ntfs-3g fuse htop inxi mc screenfetch openssh sshfs alsa-utils composer youtube-dl unrar NetworkManager-tui mupdf ncmpcpp rtorrent srm fontawesome-fonts fontawesome-fonts-web icedtea-web ffmpeg HandBrake-{gui,cli} gstreamer{,1}-plugins-ugly gstreamer-plugins-bad-nonfree gstreamer1-plugins-bad-freeworld zlib.i686 ncurses-libs.i686 bzip2-libs.i686 postgresql-libs nodejs npm p7zip p7zip-plugins unrar mesa-dri-drivers mesa-libGL mariadb mariadb-server httpd php php-mysqlnd php-opcache phpmyadmin"
 
-alias install-basic-centos2="sudo yum -y install otter-browser firefox gimp inkscape libreoffice"
+alias bc2="sudo yum -y install otter-browser firefox gimp inkscape libreoffice"
 
 #install-basicfor fedora (unrar rpmfusion)
-alias install-basic-fedora="sudo dnf install -y glances mpd ncmpcpp terminus-fonts-console terminus-fonts ntfsprogs pulseaudio-utils p7zip p7zip-plugins arandr figlet tmux udisks2 vim neovim ntfs-3g fuse htop inxi mc screenfetch openssh sshfs alsa-utils composer youtube-dl unrar NetworkManager-tui mupdf ncmpcpp rtorrent srm fontawesome-fonts fontawesome-fonts-web icedtea-web ffmpeg HandBrake-{gui,cli} gstreamer{,1}-plugins-ugly gstreamer-plugins-bad-nonfree gstreamer1-plugins-bad-freeworld zlib.i686 ncurses-libs.i686 bzip2-libs.i686 postgresql-libs nodejs npm p7zip p7zip-plugins unrar mesa-dri-drivers mesa-libGL mariadb mariadb-server httpd php php-mysqlnd php-opcache phpmyadmin"
+alias bf="sudo dnf install -y glances mpd ncmpcpp terminus-fonts-console terminus-fonts ntfsprogs pulseaudio-utils p7zip p7zip-plugins arandr figlet tmux udisks2 vim neovim ntfs-3g fuse htop inxi mc screenfetch openssh sshfs alsa-utils composer youtube-dl unrar NetworkManager-tui mupdf ncmpcpp rtorrent srm fontawesome-fonts fontawesome-fonts-web icedtea-web ffmpeg HandBrake-{gui,cli} gstreamer{,1}-plugins-ugly gstreamer-plugins-bad-nonfree gstreamer1-plugins-bad-freeworld zlib.i686 ncurses-libs.i686 bzip2-libs.i686 postgresql-libs nodejs npm p7zip p7zip-plugins unrar mesa-dri-drivers mesa-libGL mariadb mariadb-server httpd php php-mysqlnd php-opcache phpmyadmin"
 
-alias install-basic-fedora2="sudo dnf -y install otter-browser gimp inkscape libreoffice blueberry screenfetch firefox mscore-fonts powertop feh lxappearance fontawesome-fonts mesa-dri-drivers mesa-libGL steam audacity-freeworld gimp-paint-studio blender fontforge key-mon kdenlive simplescreenrecorder mypaint scribus synfigstudio obs-studio"
+alias bf2="sudo dnf -y install otter-browser gimp inkscape libreoffice blueberry screenfetch firefox mscore-fonts powertop feh lxappearance fontawesome-fonts mesa-dri-drivers mesa-libGL steam audacity-freeworld gimp-paint-studio blender fontforge key-mon kdenlive simplescreenrecorder mypaint scribus synfigstudio obs-studio"
 
 #install-webserver
-alias install-webserver-fedora="sudo dnf -y install mariadb mariadb-server httpd php php-mysqlnd php-opcache phpmyadmin libreoffice-base mysql-connector-java unixODBC mysql-connector-java php-fpm"
-alias install-webserver-centos="sudo yum -y install mariadb mariadb-server httpd php php-mysqlnd php-opcache phpmyadmin libreoffice-base mysql-connector-java unixODBC mysql-connector-java php-fpm"
+alias wf="sudo dnf -y install mariadb mariadb-server httpd php php-mysqlnd php-opcache phpmyadmin libreoffice-base mysql-connector-java unixODBC mysql-connector-java php-fpm"
+alias wc="sudo yum -y install mariadb mariadb-server httpd php php-mysqlnd php-opcache phpmyadmin libreoffice-base mysql-connector-java unixODBC mysql-connector-java php-fpm"
 
 #install-i3
-alias install-i3-fedora="sudo dnf -y install mpv moc i3 i3status dmenu i3lock nitrogen mupdf w3m cmus lxappearance dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts dejavu-fonts-common fontawesome-fonts fontawesome-fonts-web sddm py3status feh sddm mesa-dri-drivers xorg-x11-drv-evdev xorg-x11-drv-fbdev xorg-x11-drv-synaptics"
+alias i3f="sudo dnf -y install mpv moc i3 i3status dmenu i3lock nitrogen mupdf w3m cmus lxappearance dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts dejavu-fonts-common fontawesome-fonts fontawesome-fonts-web sddm py3status feh sddm mesa-dri-drivers xorg-x11-drv-evdev xorg-x11-drv-fbdev xorg-x11-drv-synaptics"
 
-#xorg-x11-session xorg-x11-drv-vmouse x"
-#"; sudo dnf -y groupinstall 'X window System' 'Desktop' 'Desktop Platform'"
-
-alias install-i3-centos="sudo yum -y install mpv moc i3 i3status dmenu i3lock nitrogen mupdf w3m cmus lxappearance dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts dejavu-fonts-common fontawesome-fonts fontawesome-fonts-web sddm py3status feh xorg-x11-session; sudo yum -y groupinstall 'X window System' 'Desktop' 'Desktop Platform'"
+alias i3c="sudo yum -y install mpv moc i3 i3status dmenu i3lock nitrogen mupdf w3m cmus lxappearance dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts dejavu-fonts-common fontawesome-fonts fontawesome-fonts-web sddm py3status feh xorg-x11-session; sudo yum -y groupinstall 'X window System' 'Desktop' 'Desktop Platform'"
 
 #install codec (with rpm fusion)
-alias install-codec-fedora="sudo dnf -y install gstreamer-plugins-base gstreamer1-plugins-base gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer1-plugins-ugly gstreamer-plugins-good-extras gstreamer1-plugins-good-extras gstreamer1-plugins-bad-freeworld ffmpeg gstreamer-ffmpeg gstreamer1-{ffmpeg,libav,plugins-{good,ugly,bad{,-free,-nonfree}}} --setopt=strict=0"
+alias cf="sudo dnf -y install gstreamer-plugins-base gstreamer1-plugins-base gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer1-plugins-ugly gstreamer-plugins-good-extras gstreamer1-plugins-good-extras gstreamer1-plugins-bad-freeworld ffmpeg gstreamer-ffmpeg gstreamer1-{ffmpeg,libav,plugins-{good,ugly,bad{,-free,-nonfree}}} --setopt=strict=0"
 
-alias install-codec-centos="sudo yum -y install gstreamer-plugins-base gstreamer1-plugins-base gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer1-plugins-ugly gstreamer-plugins-good-extras gstreamer1-plugins-good-extras gstreamer1-plugins-bad-freeworld ffmpeg gstreamer-ffmpeg gstreamer1-{ffmpeg,libav,plugins-{good,ugly,bad{,-free,-nonfree}}} --setopt=strict=0"
+alias cc="sudo yum -y install gstreamer-plugins-base gstreamer1-plugins-base gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer1-plugins-ugly gstreamer-plugins-good-extras gstreamer1-plugins-good-extras gstreamer1-plugins-bad-freeworld ffmpeg gstreamer-ffmpeg gstreamer1-{ffmpeg,libav,plugins-{good,ugly,bad{,-free,-nonfree}}} --setopt=strict=0"
 
 #unstall spin
-alias install-spin-fedora="sudo dnf install spin-kickstarts spin-kickstarts l10n-kickstarts"
-alias install-spin-centos="sudo yum install spin-kickstarts spin-kickstarts l10n-kickstarts"
+alias sf="sudo dnf install spin-kickstarts spin-kickstarts l10n-kickstarts"
 
 #update grub
-alias update-grub="sudo grub2-mkconfig -o /boot/grub2/grub.cfg"
+alias ug="sudo grub2-mkconfig -o /boot/grub2/grub.cfg"
 
 #start GUI
 alias gui="sudo systemctl isolate graphical.target"
@@ -162,13 +158,13 @@ alias vimrc="vim ~/.vimrc"
 alias vimzsh="vim ~/.zshrc"
 alias vimmp="vim ~/mojopahit-linux/mojopahit-linux-testing.ks"
 
-#hervy
+#hervy (personal)
 alias vimpi="vim ~/Documents/impimedia"
 alias hervy="vim ~/Documents/hervy"
 alias cv="vim ~/Documents/cv"
 alias vimhervy="vim ~/Documents/vimhervy"
 
-#livecd-creator
+#livecd-creator (personal)
 alias mp-kde="cd /home/hervy/mojopahit-linux; ./mp-kde"
 alias mp-xfce="cd /home/hervy/mojopahit-linux; ./mp-xfce"
 
@@ -290,7 +286,7 @@ alias ntfssdi4="sudo mkfs.ntfs -Q -F -L 'Disk' '/dev/sdi4'"
 #}
 
 #Pembukaan terminal, uncomment jika tidak perlu.
-figlet -f slant "${red} W T F" 
+figlet -f slant "${red} Wellcome" 
 echo "==============================================================="
 echo -ne "${green} Today \t\t\t: ${red}"`date`;echo""
 echo -e "${green} Kernel Information\t:${red}" `uname -smr`
