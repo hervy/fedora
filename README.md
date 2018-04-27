@@ -41,7 +41,7 @@ $ install-rpmfusion-centos
 ## Install basic for fedora
 $ install-basic-fedora
 ## Install basic for centos
-$ install-basic-fedora
+$ install-basic-centos
 ## ===================================================
 # Step 4 (optional, GUI apps : firefox, gimp, inkscape, etc) >>
 ## Install basic for fedora (GUI APP)
