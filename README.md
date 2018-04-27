@@ -1,4 +1,4 @@
-## ===================================================
+## ===============================================================
 ## For Fedora / Centos
 ## ===================================================
 # ![](ss.png)
@@ -37,31 +37,39 @@ $ rff
 ## Install RPMFusion for centos
 $ rfc
 ## ===================================================
-# Step 3 >>
+# Step 3 (Optional, only centos)>>
+## Install Epel repo
+$ epel
+## Install Nux-dextop repo
+$ nux
+## Install Remi repo
+$ remi
+## ===================================================
+# Step 5 >>
 ## Install basic for fedora
 $ bf
 ## Install basic for centos
 $ bc
 ## ===================================================
-# Step 4 (optional, GUI apps : firefox, gimp, inkscape, etc) >>
+# Step 6 (optional, GUI apps : firefox, gimp, inkscape, etc) >>
 ## Install basic for fedora (GUI APP)
 $ bf2
 ## Install basic for centos (GUI APP)
 $ bc2
 ## ===================================================
-# Step 5 >>
+# Step 7 >>
 ## Install codec for fedora
 $ cf
 ## Install codec for centos
 $ cc
 ## ===================================================
-# Step 6 (optional)>>
+# Step 8 (optional)>>
 ## Install i3-wm for fedora
 $ i3f
 ## Install i3-wm for centos
 $ i3c
 ## ===================================================
-# Step 7 (Optional)>>
+# Step 9 (Optional)>>
 ## Install web server basic for fedora
 $ wf
 ## Install web server basic for centos
